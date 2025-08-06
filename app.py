@@ -40,7 +40,7 @@ except ImportError:
 @dataclass
 class AppConfig:
     """Application configuration class"""
-    API_KEY: str = "AIzaSyCTmtoeFy4Fvc83IIUobRqnEQlM-SosAzc"
+    API_KEY: str = "("GOOGLE_API_KEY", "")"
     MODEL_NAME: str = "gemini-1.5-flash"
     TEMPERATURE: float = 0.5
     MAX_TOKENS: int = 1000
